@@ -52,7 +52,7 @@ public abstract class PistonBaseBlock_movableBEMixin extends DirectionalBlock
     {
         //Making PISTON_EXTENSION (BlockPistonMoving) pushable would not work as its createNewTileEntity()-method returns null
         return block != Blocks.ENDER_CHEST && block != Blocks.ENCHANTING_TABLE &&
-                       block != Blocks.END_GATEWAY && block != Blocks.END_PORTAL && block != Blocks.MOVING_PISTON  &&
+                       block != Blocks.END_GATEWAY  && block != Blocks.MOVING_PISTON  &&
                        block != Blocks.SPAWNER;
     }
     
